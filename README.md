@@ -1,6 +1,6 @@
 # UITabbarExtension
 
-## Introduction
+### Introduction
 
 The UITabbarExtension was built to against the the restriction of the UITabarItem.
 
