@@ -12,8 +12,10 @@ associated with badimage
 
 ### How to Use
 Drag Swizzling+UITabBar.swift into you source project,the UITabbarExtension will work when the UITabBar Class was loaded.
-By adding image to the tabbarItem,just need to setting the value of the my_badgeImage which is governed by the each childViewController of TabBarController,and make visiable by setting the flag my_badgeImageHidden to false.   
-when finished setting the custom badge image of tabBarItem,don't forget to send setNeedsLayout message to you tabbar which responsiable for the tabBarItem you set.
+
+By adding image to the tabbarItem,just need to setting the value of the **my_badgeImage** which is governed by the each childViewController of TabBarController,and make visiable by setting the flag **my_badgeImageHidden** to false.
+
+when finished setting the custom badge image of tabBarItem,don't forget to send **setNeedsLayout** message to you tabbar which responsiable for the tabBarItem you set.
 
 ### Example
 ```Swift
